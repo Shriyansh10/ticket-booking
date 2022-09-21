@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
 }
 
 body{
@@ -52,3 +53,35 @@ body{
   font-size: 20px;
 }
 
+.details{
+  margin: 60px 0 25px;
+  text-align: center;
+  font: 3em;
+  font-weight: bold;
+}
+
+.details_moviename{
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.details_movieprice{
+  margin: 0;
+  margin-bottom: 0px;
+}
+
+.details_buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 550px
+  
+}
+
+.details_button{
+  cursor: pointer;
+  padding: 6px 16px;
+  background-color: #F84464;
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
