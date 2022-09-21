@@ -1,9 +1,9 @@
 *{
-  font-family: ;
+  box-sizing: border-box;
 }
 
 body{
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   max-width: 80%;
   margin: 0 auto;
 }
@@ -22,5 +22,33 @@ body{
   border-bottom: 1px solid #ddd;
 }
 
+.recommended{
+  text-align: center;
+}
+.recommendText{
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 30px;
+}
+.cards{
+  padding: 0 65px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 700;
+}
 
+.card{
+  cursor: pointer;
+  box-sizing: border-box;
+  display: block;
+  background-color: white;
+  margin: 58px 29px 0; 
+  padding: 33px;
+  width: 381px;
+  height: 112px;
+  box-shadow: 2px 2px 7px;
+  font-size: 20px;
+}
 
