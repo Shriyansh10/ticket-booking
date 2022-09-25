@@ -1,3 +1,6 @@
+Note: Images taken from the website is stored in src/ScreenShots-Folder
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
