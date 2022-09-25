@@ -32,10 +32,11 @@ const MovieState = (props)=>{
             "language": "Telugu",
             "price": "200"
         },
-
     ]
     return(
+        <>
         <MovieContext.Provider value={movie_details}>{props.children}</MovieContext.Provider>
+        </>
     );
 }
 
